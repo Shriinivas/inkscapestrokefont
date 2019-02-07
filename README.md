@@ -34,7 +34,7 @@ The Synchronize Font List extension should be used to synchronize the XML (if it
 The new stroke fonts are derived from: Square Grotesk and Pinyon Script available under Open Font License on https://fontlibrary.org/<br>
 
 # Limitations
-With the non-english characters, the Generate Font Data extension may produce an error. The work-around is to save the file,
+With the non-english characters, the Generate Font Data extension may produce an error. The work-around is: save the file,
 re-open it and generate the data once again.<br>
 Currently there is no user interface for deleting the fonts. This can be done manually by editing the XML and removing the font element.<br><br>
 The tools are in alpha stage, so please exercise caution while using them. <br>
