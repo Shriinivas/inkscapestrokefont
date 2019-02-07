@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Render Text</_name>
+  <id>khema.stroke.fnt.render.text</id>
+  <dependency type="executable" location="extensions">render_stroke_font_text.py</dependency>
+  <dependency type="executable" location="extensions">customstrokefontdata.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+
+  <param name="tab" type="notebook">
+    <page name="splash" _gui-text="Render Text">
+      <param name="text" type="string" _gui-text="Text:"></param>
+      
+      <param name="action" type="enum" _gui-text="Action: ">
+        <_item value="render">Render the text</_item>
+        <_item value="table" >Render font glyph table</_item> 
+      </param>
+
+      <param name="fontName" type="enum" _gui-text="Font:">
+    <!-- ##! dynamically generated portion [start] -->
+        <item value="Script">Script</item>
+        <item value="Square Italic">Square Italic</item>
+    <!-- ##! dynamically generated portion [end] -->
+      </param>            
+      <param name="fontSize" type="float" min = "5" max = "10000" _gui-text="Font Size:">100</param>
+      <param name="charSpacing" type="float" min = "0" max = "100" _gui-text="Char Spacing:">1</param>
+      <param name="lineSpacing" type="float" min = "0" max = "100" _gui-text="Line Spacing:">1.5</param>
+      
+    </page>
+    <page name="info" _gui-text="About...">
+      <_param name="aboutpage" type="description" xml:space="preserve">This extension renders given text using the selected stroke fonts similar to Hershey Text extension.
+      
+Use \n in the input string to start a new line of text.            
+Select 'Render font glyph table' option to view all the available glyphs of the given font.
+      </_param>
+    </page>
+  </param>
+
+  <effect needs-live-preview="true" needs-document="true">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu _name="Custom Stroke Font"/>
+    </effects-menu>
+  </effect>
+    <script>
+      <command reldir="extensions" interpreter="python">render_stroke_font_text.py</command>
+    </script>
+</inkscape-extension>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Create Font Design Template</_name>
+    <id>khema.stroke.fnt.templ</id>
+    <dependency type="executable" location="extensions">stroke_font_templ.py</dependency>
+    <dependency type="executable" location="extensions">inkex.py</dependency>
+    <param name="tab" type="notebook">
+        <page name="createStrokeFontTempl" _gui-text="Create Font Design Template">-->
+        
+            <param name="rowCnt" type="int" default = "5" min = "1" max = "10000" _gui-text="No of Rows:">5</param>
+            <param name="glyphCnt" type="int" default = "75" min = "1" max = "10000" _gui-text="Glyph Count:">75</param>
+
+            <param name="createGlyphs" type="boolean" default="True" _gui-text="Create Source Glyphs">True</param>
+            <param name="srcFontFamily" type="string" _gui-text="Source Font Family:"></param>
+
+            <param name="srcFontSize" type="int" default = "100" min = "5" max = "10000" _gui-text="Source Font Size:">100</param>
+
+            <param name="fontType" type="enum" default="Regular" _gui-text="Source Font Style:">
+                <item value="normal">Regular</item>
+                <item value="italic">Italic</item>
+                <item value="bold">Bold</item>
+                <item value="bolditalic">Bold Italic</item>
+            </param>            
+            
+            <param name="startGlyph" type="string" default = "0" _gui-text="First Glyph:">0</param>
+            <param name="rvGuides" type="boolean" default="False" _gui-text="Right Vertical Guides">False</param>
+        </page>
+        
+        <page name="desc" _gui-text="Help">
+            <_param name="createStrokeFontTemplHelp" type="description" xml:space="preserve">Inkscape extension to generate template for designing / tracing custom stroke font. 
+            
+Check the 'Generate Source Glyphs' option to create characters of the given size from source font family; these can be used for tracing the stroke font glyphs. 
+Checking the 'Right Vertical Guides' options, creates an extra vertical guide at the right extreme of each glyph for manual setting of right offset.
+            </_param>
+        </page>
+    </param>    
+    <effect>
+        <object-type>path</object-type>
+        <effects-menu>
+            <submenu _name="Custom Stroke Font"/>
+        </effects-menu>
+   </effect>
+    <script>
+        <command reldir="extensions" interpreter="python">stroke_font_templ.py</command>
+    </script>
+</inkscape-extension>

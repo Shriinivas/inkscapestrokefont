@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Synchronize Font List</_name>
+    <id>khema.stroke.fnt.synch</id>
+    <dependency type="executable" location="extensions">sync_stroke_font.py</dependency>
+    <dependency type="executable" location="extensions">inkex.py</dependency>
+    <effect needs-live-preview="false">
+        <object-type>path</object-type>
+        <effects-menu>
+            <submenu _name="Custom Stroke Font"/>
+        </effects-menu>
+   </effect>
+    <script>
+        <command reldir="extensions" interpreter="python">sync_stroke_font.py</command>
+    </script>
+</inkscape-extension>
