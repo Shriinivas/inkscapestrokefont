@@ -84,7 +84,9 @@ class RenderStrokeFontText(Effect):
         strokeFontData.scaleFont(fontSize)
         crInfo = strokeFontData.crInfo
         
-        charStyle = { 'stroke': '#000000', 'fill': 'none', 'stroke-width':1, \
+        strokeWidth = 0.02 * fontSize
+        
+        charStyle = { 'stroke': '#000000', 'fill': 'none', 'stroke-width':strokeWidth, \
             'stroke-linecap':'round', 'stroke-linejoin':'round'}
             
         naStyle = { 'stroke': '#000000', 'fill': '#000000', 'stroke-width':.5}
