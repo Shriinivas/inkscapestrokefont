@@ -7,10 +7,10 @@
     <param name="tab" type="notebook">
         <page name="createStrokeFontTempl" _gui-text="Create Font Design Template">-->
         
-            <param name="rowCnt" type="int" default = "5" min = "1" max = "10000" _gui-text="No of Rows:">5</param>
-            <param name="glyphCnt" type="int" default = "75" min = "1" max = "10000" _gui-text="Glyph Count:">75</param>
+            <param name="rowCnt" type="int" min = "1" max = "10000" _gui-text="No of Rows:">5</param>
+            <param name="glyphCnt" type="int" min = "1" max = "10000" _gui-text="Glyph Count:">75</param>
 
-            <param name="createGlyphs" type="boolean" default="True" _gui-text="Create Source Glyphs">True</param>
+            <param name="createGlyphs" type="boolean" _gui-text="Create Source Glyphs">True</param>
             <param name="srcFontFamily" type="string" _gui-text="Source Font Family:"></param>
 
             <param name="srcFontSize" type="int" default = "100" min = "5" max = "10000" _gui-text="Source Font Size:">100</param>
@@ -22,8 +22,8 @@
                 <item value="bolditalic">Bold Italic</item>
             </param>            
             
-            <param name="startGlyph" type="string" default = "0" _gui-text="First Glyph:">0</param>
-            <param name="rvGuides" type="boolean" default="False" _gui-text="Right Vertical Guides">False</param>
+            <param name="startGlyph" type="string" max_length="1" _gui-text="First Glyph:">0</param>
+            <param name="rvGuides" type="boolean" _gui-text="Right Vertical Guides">False</param>
         </page>
         
         <page name="desc" _gui-text="Help">
