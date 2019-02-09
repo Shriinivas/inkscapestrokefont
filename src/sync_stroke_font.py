@@ -24,9 +24,11 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
 
-import inkex, os
-from stroke_font_common import syncFontList, CommonDefs
+import inkex, os, sys
 from xml.dom.minidom import parse
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
+from stroke_font_common import syncFontList, CommonDefs
 
 class SyncFontListEffect(inkex.Effect):
 

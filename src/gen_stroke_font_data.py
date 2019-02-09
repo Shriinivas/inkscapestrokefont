@@ -26,11 +26,13 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
 
-import inkex, os, re, math
+import inkex, sys, os, re, math
 from cubicsuperpath import CubicSuperPath, formatPath
 from simpletransform import refinedBBox, applyTransformToPath, applyTransformToPoint, parseTransform
 import simplepath
 from bezmisc import bezierlengthSimpson
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
 from stroke_font_common import getDataFileDoc, CommonDefs, FontData, updateDataFile, syncFontList
 
 def getNearestGuide(guides, minVal, coIdx, hSeq = None):

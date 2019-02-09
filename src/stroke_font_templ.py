@@ -24,6 +24,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 from inkex import Effect, etree, addNS, NSS
 from math import ceil
 from simplestyle import formatStyle
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
 from stroke_font_common import CommonDefs
 
 class CustStrokeFontTempl(Effect):

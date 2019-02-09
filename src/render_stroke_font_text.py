@@ -29,7 +29,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 from inkex import etree, addNS, Effect
 from simpletransform import computePointInNode
 from simplestyle import formatStyle
-import os
+import os, sys
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
 from stroke_font_common import *
 
 class RenderStrokeFontText(Effect):
