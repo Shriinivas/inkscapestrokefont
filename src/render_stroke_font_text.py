@@ -27,12 +27,17 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 """
 
 from inkex import etree, addNS, Effect
-from simpletransform import computePointInNode
 from simplestyle import formatStyle
 import os, sys
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
 from stroke_font_common import *
+
+try:
+    from simpletransform import computePointInNode
+    oldVersion = False
+except:
+    oldVersion = True
 
 class RenderStrokeFontText(Effect):
     def __init__( self ):
@@ -174,8 +179,12 @@ class RenderStrokeFontText(Effect):
                     wMax = xOffset
                     
             xOffset = wMax
-        #  Translate group to center of view, approximately
-        view_center = computePointInNode(list(self.view_center), self.current_layer)
+            
+        if(oldVersion):
+            view_center = list(self.view_center)
+        else:
+            #  Translate group to center of view, approximately
+            view_center = computePointInNode(list(self.view_center), self.current_layer)
         
         t = 'translate(' + str( view_center[0] - xOffset / 2) + ',' + \
             str( view_center[1] - yOffset / 2 ) + ')'
