@@ -21,7 +21,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
 
-import inkex, os, fileinput
+import inkex, os, fileinput, re
 from xml.dom.minidom import parse, Document
 from cubicsuperpath import CubicSuperPath, formatPath
 from simplepath import parsePath
@@ -45,7 +45,8 @@ class CommonDefs:
     xSize = 'size'
     xGlyph = 'glyph'
     xChar = 'char'
-    xWidth = 'width'
+    xROff = 'rOff'
+    xBBox = 'bbox'
     xCRInfo = 'crinfo'
     
     #### XML Comment ####
@@ -116,6 +117,13 @@ def scaleGlyph(glyphD, scaleFactor):
                     bezierPts[i][1] * scaleFactor]                    
     return formatPath(cspath)
     
+class CharData:
+    
+    def __init__(self, bbox, rOffset, pathStr):
+        self.bbox = bbox
+        self.rOffset = rOffset
+        self.pathStr = pathStr
+
 class FontData:
     
     def __init__(self, dataDoc, fontName):
@@ -137,28 +145,37 @@ class FontData:
             self.fontSize = float(self.fontElem.getAttribute(CommonDefs.xSize))
             glyphElems = self.fontElem.getElementsByTagName(CommonDefs.xGlyph)
             
+            regEx = re.compile('\(([^,]+),([^,]+),([^,]+),([^,]+)\)')
             for e in glyphElems:
                 char = e.getAttribute(CommonDefs.xChar)
-                rOffset = e.getAttribute(CommonDefs.xWidth)
-                glyphD = e.childNodes[0].data
-                self.glyphMap[char] = [rOffset, glyphD]
+                rOffset = float(e.getAttribute(CommonDefs.xROff))
+                bboxStr =  e.getAttribute(CommonDefs.xBBox)
+
+                res = regEx.findall(bboxStr)
+                bbox = [float(b) for b in res[0]]
+                
+                pathStr = e.childNodes[0].data
+                self.glyphMap[char] = CharData(bbox, rOffset, pathStr)
 
     def isNew(self):
         return self.fontElem == None
     
     def scaleFont(self, newFontSize):        
         if(self.fontSize > 0):
-            for char in self.glyphMap:            
-                rOffset = float(self.glyphMap[char][0])
-                glyphD = self.glyphMap[char][1]
-                newD = scaleGlyph(glyphD, newFontSize / self.fontSize)
-                scaledOffset = rOffset * newFontSize / self.fontSize
-                self.glyphMap[char] = [scaledOffset, newD]
+            for char in self.glyphMap:
+                charData = self.glyphMap[char]                
+                pathStr = scaleGlyph(charData.pathStr, newFontSize / self.fontSize)
+                rOffset = charData.rOffset * newFontSize / self.fontSize
+                bbox = [b * newFontSize / self.fontSize for b in charData.bbox]
+                self.updateGlyph(char, bbox, rOffset, pathStr)
             
         self.fontSize = newFontSize
     
     def setCRInfo(self, crInfo):
         self.crInfo = crInfo
+        
+    def updateGlyph(self, char, bbox, rOffset, pathStr):
+        self.glyphMap[char] = CharData(bbox, rOffset, pathStr)
         
     def updateFontElemInDoc(self, doc):
         if(self.fontElem != None):
@@ -174,12 +191,13 @@ class FontData:
         self.fontElem.appendChild(crElem)
         
         for char in self.glyphMap:
-            val = self.glyphMap[char]
-            width = val[0]
-            pathStr = val[1]
+            charData = self.glyphMap[char]
 
             glyphElem = doc.createElement(CommonDefs.xGlyph)
             glyphElem.setAttribute(CommonDefs.xChar, char)
-            glyphElem.setAttribute(CommonDefs.xWidth, str(width))
-            glyphElem.appendChild(doc.createTextNode(pathStr))
+            glyphElem.setAttribute(CommonDefs.xROff, str(charData.rOffset))
+            glyphElem.setAttribute(CommonDefs.xBBox, \
+                '('+','.join([str(round(b, 2)) for b in charData.bbox])+')')
+                
+            glyphElem.appendChild(doc.createTextNode(charData.pathStr))
             self.fontElem.appendChild(glyphElem)

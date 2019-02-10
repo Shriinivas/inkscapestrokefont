@@ -28,12 +28,13 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 import inkex, sys, os, re, math
 from cubicsuperpath import CubicSuperPath, formatPath
-from simpletransform import refinedBBox, applyTransformToPath, applyTransformToPoint, parseTransform
 import simplepath
 from bezmisc import bezierlengthSimpson
+from simpletransform import refinedBBox, applyTransformToPath, \
+    applyTransformToPoint, parseTransform
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
-from stroke_font_common import getDataFileDoc, CommonDefs, FontData, updateDataFile, syncFontList
+from stroke_font_common import *
 
 def getNearestGuide(guides, minVal, coIdx, hSeq = None):
     if(guides == None or len(guides) == 0):
@@ -157,7 +158,10 @@ def updateData(strokeFontData, glyphPathElems, hGuides, lvGuides, rvGuides, righ
         rOffset = round(rOffset, 2)
 
         pathStr = formatPath(npath)
-        strokeFontData.glyphMap[char] = [rOffset, pathStr]
+        bbox = [round(xmin - lvgX, 2), round(xmax - lvgX, 2), 
+            round(ymin - hgY, 2), round(ymax - hgY, 2)]
+            
+        strokeFontData.updateGlyph(char, bbox, rOffset, pathStr)
             
 class GenStrokeFontData(inkex.Effect):
 

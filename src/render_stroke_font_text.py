@@ -117,8 +117,8 @@ class RenderStrokeFontText(Effect):
                     continue
                 charData = strokeFontData.glyphMap.get(char)
                 if(charData != None):
-                    rOffset = charData[0]
-                    d =  charData[1]
+                    rOffset = charData.rOffset
+                    d =  charData.pathStr
                     style = charStyle
                 elif(char == ' '):
                     xOffset += spaceWidth
@@ -166,8 +166,8 @@ class RenderStrokeFontText(Effect):
                     xOffset += spaceWidth
 
                 charData = strokeFontData.glyphMap.get(char)
-                rOffset = charData[0]
-                d =  charData[1]
+                rOffset = charData.rOffset
+                d =  charData.pathStr
                 
                 trans = 'translate(' + str(xOffset) + ', '+ str(yOffset)+')'
                 attribs = {'style':formatStyle(charStyle), 'd':d, 'transform':trans}
