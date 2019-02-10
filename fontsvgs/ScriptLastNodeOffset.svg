@@ -22,10 +22,10 @@
      inkscape:window-height="1026"
      inkscape:window-width="1920"
      showgrid="false"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1436"
      inkscape:document-units="mm"
-     inkscape:cy="80.490413"
-     inkscape:cx="5158.4307"
+     inkscape:cy="78.225333"
+     inkscape:cx="5169.5369"
      inkscape:zoom="27.372098"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -1418,9 +1418,7 @@
        inkscape:connector-curvature="0"
        style="opacity:1;stroke:#ff0066;stroke-width:0.05"
        id="path981"
-       d="M 0,70.328044 H 5700"
-       guide="h"
-       hSeq="0" />
+       d="M 0,70.328044 H 5700" />
   </g>
   <g
      id="layer1"
