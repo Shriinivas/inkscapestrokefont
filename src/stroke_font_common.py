@@ -104,7 +104,7 @@ def syncFontList(doc):
                     print line,
 
     except Exception as e:
-        inkex.errormsg(_('Error updating font list...\n' + str(e)))
+        inkex.errormsg('Error updating font list...\n' + str(e))
 
 def scaleGlyph(glyphD, scaleFactor):
     

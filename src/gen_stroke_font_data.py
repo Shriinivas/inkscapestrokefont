@@ -200,8 +200,8 @@ class GenStrokeFontData(inkex.Effect):
         #A quick check to see if there are duplicates
         uniqueSeqNoCnt = len(set([g[0].get(hSeqAName) for g in hGuides]))
         if(len(hGuides) != uniqueSeqNoCnt):
-            inkex.errormsg(_("Multiple guides with the same sequence number, \
-please create the template only once."))
+            inkex.errormsg("Multiple guides with the same sequence number, \
+please create the template only once.")
             return 
             
         hGuides = sorted(hGuides, key = lambda p: int(p[0].get(hSeqAName)))
@@ -217,8 +217,8 @@ please create the template only once."))
         
                         
         if(len(lvGuides) == 0  or len(hGuides) == 0):
-            inkex.errormsg(_("Missing guides. Please use the Create Font Design \
-Template extension to design the font."))
+            inkex.errormsg("Missing guides. Please use the Create Font Design \
+Template extension to design the font.")
             return 
 
         fontSize = getFontSizeFromGuide(lvGuides[0][1], CommonDefs.vgScaleFact)
@@ -244,6 +244,6 @@ try:
     effect = GenStrokeFontData()
     effect.affect()
 except:    
-    inkex.errormsg(_("The data was not generated due to an error. \
+    inkex.errormsg("The data was not generated due to an error. \
 If you are creating non-english glyphs then save the document, re-open and \
-try generating the font data once again."))
+try generating the font data once again.")
