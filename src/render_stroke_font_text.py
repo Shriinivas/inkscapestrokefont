@@ -109,7 +109,9 @@ class RenderStrokeFontText(Effect):
         yOffset = 0
         
         if self.options.action == "render":
-            chars = unicode(self.options.text, 'utf-8').replace('\\n','\n').replace('\\\n','\\n')
+            # ~ chars = unicode(self.options.text, 'utf-8').replace('\\n','\n').replace('\\\n','\\n')
+            chars = getDecodedChars(self.options.text)
+            chars = chars.replace('\\n','\n').replace('\\\n','\\n')
             for char in chars:
                 if(char == '\n'):
                     yOffset += fontSize * lineSpacing

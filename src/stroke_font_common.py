@@ -21,7 +21,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
 
-import inkex, os, fileinput, re
+import inkex, sys, os, fileinput, re, locale
 from xml.dom.minidom import parse, Document
 from cubicsuperpath import CubicSuperPath, formatPath
 from simplepath import parsePath
@@ -51,6 +51,13 @@ class CommonDefs:
     
     #### XML Comment ####
     xHeader = 'The data file defining the stroke fonts'
+
+    encoding = sys.stdin.encoding
+    if(encoding == 'cp0' or encoding is None):
+        encoding = locale.getpreferredencoding()
+
+def getDecodedChars(chars):
+    return chars.decode(CommonDefs.encoding)
 
 def getDataFileDoc(dataFilePath):
     try:

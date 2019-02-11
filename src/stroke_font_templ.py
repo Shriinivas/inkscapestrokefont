@@ -27,7 +27,7 @@ from simplestyle import formatStyle
 import sys, os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
-from stroke_font_common import CommonDefs
+from stroke_font_common import CommonDefs, getDecodedChars
 
 class CustStrokeFontTempl(Effect):
 
@@ -108,8 +108,9 @@ class CustStrokeFontTempl(Effect):
         rvGuides = self.options.rvGuides
         srcFontSize = self.options.srcFontSize
         
-        if(len(self.options.startGlyph) > 0):
-            startGlyph = unicode(self.options.startGlyph, 'utf-8')[0]
+        if(len(self.options.startGlyph) > 0):            
+            # ~ startGlyph = unicode(self.options.startGlyph, 'utf-8')[0]
+            startGlyph = getDecodedChars(self.options.startGlyph)[0]
         else:
             startGlyph = 'A'
 
