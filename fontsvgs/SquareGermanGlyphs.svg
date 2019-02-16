@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="17350"
+   height="600"
+   version="1.1"
+   id="svg83718"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="SquareGermanGlyphs.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="8398.0889"
+     inkscape:cy="345.01602"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg83718"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs83712" />
+  <metadata
+     id="metadata83715">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1" />
+  <g
+     id="g86366"
+     inkscape:groupmode="layer"
+     inkscape:label="Template">
+    <path
+       id="path85964"
+       guide="h"
+       hSeq="0"
+       d="M 0,298.0004 H 17200"
+       style="opacity:0.93999999;stroke:#ff0066;stroke-width:0.075343"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85966"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="300">Ä</text>
+    <path
+       id="path85968"
+       vSeq="0"
+       guide="lv"
+       hSeq="0"
+       d="M 300,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85970"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="600">Å</text>
+    <path
+       id="path85972"
+       vSeq="1"
+       guide="lv"
+       hSeq="0"
+       d="M 600,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85974"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="900">Æ</text>
+    <path
+       id="path85976"
+       vSeq="2"
+       guide="lv"
+       hSeq="0"
+       d="M 900,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85978"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="1200">Ç</text>
+    <path
+       id="path85980"
+       vSeq="3"
+       guide="lv"
+       hSeq="0"
+       d="M 1200,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85982"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="1500">È</text>
+    <path
+       id="path85984"
+       vSeq="4"
+       guide="lv"
+       hSeq="0"
+       d="M 1500,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85986"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="1800">É</text>
+    <path
+       id="path85988"
+       vSeq="5"
+       guide="lv"
+       hSeq="0"
+       d="M 1800,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85990"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="2100">Ê</text>
+    <path
+       id="path85992"
+       vSeq="6"
+       guide="lv"
+       hSeq="0"
+       d="M 2100,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85994"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="2400">Ë</text>
+    <path
+       id="path85996"
+       vSeq="7"
+       guide="lv"
+       hSeq="0"
+       d="M 2400,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text85998"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="2700">Ì</text>
+    <path
+       id="path86000"
+       vSeq="8"
+       guide="lv"
+       hSeq="0"
+       d="M 2700,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86002"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="3000">Í</text>
+    <path
+       id="path86004"
+       vSeq="9"
+       guide="lv"
+       hSeq="0"
+       d="M 3000,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86006"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="3300">Î</text>
+    <path
+       id="path86008"
+       vSeq="10"
+       guide="lv"
+       hSeq="0"
+       d="M 3300,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86010"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="3600">Ï</text>
+    <path
+       id="path86012"
+       vSeq="11"
+       guide="lv"
+       hSeq="0"
+       d="M 3600,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86014"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="3900">Ð</text>
+    <path
+       id="path86016"
+       vSeq="12"
+       guide="lv"
+       hSeq="0"
+       d="M 3900,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86018"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="4200">Ñ</text>
+    <path
+       id="path86020"
+       vSeq="13"
+       guide="lv"
+       hSeq="0"
+       d="M 4200,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86022"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="4500">Ò</text>
+    <path
+       id="path86024"
+       vSeq="14"
+       guide="lv"
+       hSeq="0"
+       d="M 4500,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86026"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="4800">Ó</text>
+    <path
+       id="path86028"
+       vSeq="15"
+       guide="lv"
+       hSeq="0"
+       d="M 4800,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86030"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="5100">Ô</text>
+    <path
+       id="path86032"
+       vSeq="16"
+       guide="lv"
+       hSeq="0"
+       d="M 5100,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86034"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="5400">Õ</text>
+    <path
+       id="path86036"
+       vSeq="17"
+       guide="lv"
+       hSeq="0"
+       d="M 5400,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86038"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="5700">Ö</text>
+    <path
+       id="path86040"
+       vSeq="18"
+       guide="lv"
+       hSeq="0"
+       d="M 5700,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86042"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="6000">×</text>
+    <path
+       id="path86044"
+       vSeq="19"
+       guide="lv"
+       hSeq="0"
+       d="M 6000,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86046"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="6300">Ø</text>
+    <path
+       id="path86048"
+       vSeq="20"
+       guide="lv"
+       hSeq="0"
+       d="M 6300,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86050"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="6600">Ù</text>
+    <path
+       id="path86052"
+       vSeq="21"
+       guide="lv"
+       hSeq="0"
+       d="M 6600,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86054"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="6900">Ú</text>
+    <path
+       id="path86056"
+       vSeq="22"
+       guide="lv"
+       hSeq="0"
+       d="M 6900,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86058"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="7200">Û</text>
+    <path
+       id="path86060"
+       vSeq="23"
+       guide="lv"
+       hSeq="0"
+       d="M 7200,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86062"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="7500">Ü</text>
+    <path
+       id="path86064"
+       vSeq="24"
+       guide="lv"
+       hSeq="0"
+       d="M 7500,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86066"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="7800">Ý</text>
+    <path
+       id="path86068"
+       vSeq="25"
+       guide="lv"
+       hSeq="0"
+       d="M 7800,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86070"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="8100">Þ</text>
+    <path
+       id="path86072"
+       vSeq="26"
+       guide="lv"
+       hSeq="0"
+       d="M 8100,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86074"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="8400">ß</text>
+    <path
+       id="path86076"
+       vSeq="27"
+       guide="lv"
+       hSeq="0"
+       d="M 8400,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86078"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="8700">à</text>
+    <path
+       id="path86080"
+       vSeq="28"
+       guide="lv"
+       hSeq="0"
+       d="M 8700,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86082"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="9000">á</text>
+    <path
+       id="path86084"
+       vSeq="29"
+       guide="lv"
+       hSeq="0"
+       d="M 9000,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86086"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="9300">â</text>
+    <path
+       id="path86088"
+       vSeq="30"
+       guide="lv"
+       hSeq="0"
+       d="M 9300,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86090"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="9600">ã</text>
+    <path
+       id="path86092"
+       vSeq="31"
+       guide="lv"
+       hSeq="0"
+       d="M 9600,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86094"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="9900">ä</text>
+    <path
+       id="path86096"
+       vSeq="32"
+       guide="lv"
+       hSeq="0"
+       d="M 9900,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86098"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="10200">å</text>
+    <path
+       id="path86100"
+       vSeq="33"
+       guide="lv"
+       hSeq="0"
+       d="M 10200,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86102"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="10500">æ</text>
+    <path
+       id="path86104"
+       vSeq="34"
+       guide="lv"
+       hSeq="0"
+       d="M 10500,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86106"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="10800">ç</text>
+    <path
+       id="path86108"
+       vSeq="35"
+       guide="lv"
+       hSeq="0"
+       d="M 10800,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86110"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="11100">è</text>
+    <path
+       id="path86112"
+       vSeq="36"
+       guide="lv"
+       hSeq="0"
+       d="M 11100,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86114"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="11400">é</text>
+    <path
+       id="path86116"
+       vSeq="37"
+       guide="lv"
+       hSeq="0"
+       d="M 11400,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86118"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="11700">ê</text>
+    <path
+       id="path86120"
+       vSeq="38"
+       guide="lv"
+       hSeq="0"
+       d="M 11700,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86122"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="12000">ë</text>
+    <path
+       id="path86124"
+       vSeq="39"
+       guide="lv"
+       hSeq="0"
+       d="M 12000,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86126"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="12300">ì</text>
+    <path
+       id="path86128"
+       vSeq="40"
+       guide="lv"
+       hSeq="0"
+       d="M 12300,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86130"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="12600">í</text>
+    <path
+       id="path86132"
+       vSeq="41"
+       guide="lv"
+       hSeq="0"
+       d="M 12600,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86134"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="12900">î</text>
+    <path
+       id="path86136"
+       vSeq="42"
+       guide="lv"
+       hSeq="0"
+       d="M 12900,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86138"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="13200">ï</text>
+    <path
+       id="path86140"
+       vSeq="43"
+       guide="lv"
+       hSeq="0"
+       d="M 13200,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86142"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="13500">ð</text>
+    <path
+       id="path86144"
+       vSeq="44"
+       guide="lv"
+       hSeq="0"
+       d="M 13500,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86146"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="13800">ñ</text>
+    <path
+       id="path86148"
+       vSeq="45"
+       guide="lv"
+       hSeq="0"
+       d="M 13800,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86150"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="14100">ò</text>
+    <path
+       id="path86152"
+       vSeq="46"
+       guide="lv"
+       hSeq="0"
+       d="M 14100,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86154"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="14400">ó</text>
+    <path
+       id="path86156"
+       vSeq="47"
+       guide="lv"
+       hSeq="0"
+       d="M 14400,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86158"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="14700">ô</text>
+    <path
+       id="path86160"
+       vSeq="48"
+       guide="lv"
+       hSeq="0"
+       d="M 14700,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86162"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="15000">õ</text>
+    <path
+       id="path86164"
+       vSeq="49"
+       guide="lv"
+       hSeq="0"
+       d="M 15000,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86166"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="15300">ö</text>
+    <path
+       id="path86168"
+       vSeq="50"
+       guide="lv"
+       hSeq="0"
+       d="M 15300,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86170"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="15600">÷</text>
+    <path
+       id="path86172"
+       vSeq="51"
+       guide="lv"
+       hSeq="0"
+       d="M 15600,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86174"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="15900">ø</text>
+    <path
+       id="path86176"
+       vSeq="52"
+       guide="lv"
+       hSeq="0"
+       d="M 15900,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86178"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="16200">ù</text>
+    <path
+       id="path86180"
+       vSeq="53"
+       guide="lv"
+       hSeq="0"
+       d="M 16200,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86182"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="16500">ú</text>
+    <path
+       id="path86184"
+       vSeq="54"
+       guide="lv"
+       hSeq="0"
+       d="M 16500,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86186"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="16800">û</text>
+    <path
+       id="path86188"
+       vSeq="55"
+       guide="lv"
+       hSeq="0"
+       d="M 16800,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text86190"
+       style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
+       y="300.04999"
+       x="17100">ü</text>
+    <path
+       id="path86192"
+       vSeq="56"
+       guide="lv"
+       hSeq="0"
+       d="M 17100,366.71667 V 166.71667"
+       style="opacity:1;stroke:#00aa88;stroke-width:0.1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <path
+     id="Ä"
+     style="display:inline;opacity:0.93000028;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.37803462;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 310.2424,298.1514 346.31821,230.60858 H 350.25027 L 359.88855,298.1514 M 321.93133,276.9132 356.70326,276.73557 M 367.7811,214.94248 A 2.1782627,2.8361601 59.418752 0 1 364.55949,217.30864 2.1782627,2.8361601 59.418752 0 1 362.55922,214.94248 2.1782627,2.8361601 59.418752 0 1 365.78083,212.57631 2.1782627,2.8361601 59.418752 0 1 367.7811,214.94248 Z M 342.14847,214.94248 A 2.1782627,2.8361601 59.418752 0 1 338.92686,217.30864 2.1782627,2.8361601 59.418752 0 1 336.92659,214.94248 2.1782627,2.8361601 59.418752 0 1 340.1482,212.57631 2.1782627,2.8361601 59.418752 0 1 342.14847,214.94248 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     id="Ö"
+     style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.37795955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 5768.047,242.78169 C 5769.5652,258.04016 5763.5947,279.07214 5760.5072,284.12423 5754.9781,293.17179 5753.7095,292.78438 5746.8102,295.43363 5744.3577,296.37545 5739.734,296.84726 5735.2464,296.87366 5731.3185,296.89686 5727.4948,296.57885 5725.3222,295.93624 5716.4002,293.29759 5716.1488,284.62684 5716.1488,284.62684 5712.8818,271.3066 5722.3063,246.30015 5722.3063,246.30015 5727.4584,231.59769 5740.7785,230.96947 5740.7785,230.96947 5740.7785,230.96947 5751.4597,229.83845 5755.1039,230.84367 5755.1039,230.84367 5767.0229,232.4909 5768.047,242.78169 Z M 5767.2538,214.82143 A 2.1782627,2.8361601 59.418752 0 1 5764.0322,217.18759 2.1782627,2.8361601 59.418752 0 1 5762.0319,214.82143 2.1782627,2.8361601 59.418752 0 1 5765.2536,212.45526 2.1782627,2.8361601 59.418752 0 1 5767.2538,214.82143 Z M 5741.7181,214.82143 A 2.1782627,2.8361601 59.418752 0 1 5738.4965,217.18759 2.1782627,2.8361601 59.418752 0 1 5736.4962,214.82143 2.1782627,2.8361601 59.418752 0 1 5739.7179,212.45526 2.1782627,2.8361601 59.418752 0 1 5741.7181,214.82143 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     id="Ü"
+     style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.37795863;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 7525.9283,229.24755 7516.6294,281.89956 C 7516.26,284.78981 7516.6434,294.59136 7524.4203,296.9788 H 7544.7774 C 7547.7449,296.68459 7558.494,293.02174 7560.8189,281.73456 L 7571.4912,229.24755 M 7541.5396,215.00001 A 2.1782627,2.8361601 59.418752 0 1 7538.318,217.36617 2.1782627,2.8361601 59.418752 0 1 7536.3177,215.00001 2.1782627,2.8361601 59.418752 0 1 7539.5394,212.63384 2.1782627,2.8361601 59.418752 0 1 7541.5396,215.00001 Z M 7567.2539,215.00001 A 2.1782627,2.8361601 59.418752 0 1 7564.0323,217.36617 2.1782627,2.8361601 59.418752 0 1 7562.032,215.00001 2.1782627,2.8361601 59.418752 0 1 7565.2537,212.63384 2.1782627,2.8361601 59.418752 0 1 7567.2539,215.00001 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     id="ä"
+     style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.37795562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 9947.895,270.3326 9922.4824,271.22121 C 9922.4824,271.22121 9912.7083,272.64282 9912.1753,280.28428 L 9910.7535,290.05835 C 9910.2235,292.48857 9912.3885,298.50362 9919.106,296.8114 9923.3946,295.78419 9923.508,296.405 9944.874,288.63674 M 9917.6842,252.20606 9942.0306,249.71824 C 9945.407,249.21444 9951.1829,251.87846 9950.0279,258.95911 L 9943.5044,297.0932 M 9929.4527,234.42938 A 2.1782627,2.8361601 59.418752 0 1 9926.2311,236.79554 2.1782627,2.8361601 59.418752 0 1 9924.2308,234.42938 2.1782627,2.8361601 59.418752 0 1 9927.4525,232.06321 2.1782627,2.8361601 59.418752 0 1 9929.4527,234.42938 Z M 9954.8991,234.42938 A 2.1782627,2.8361601 59.418752 0 1 9951.6775,236.79554 2.1782627,2.8361601 59.418752 0 1 9949.6772,234.42938 2.1782627,2.8361601 59.418752 0 1 9952.8989,232.06321 2.1782627,2.8361601 59.418752 0 1 9954.8991,234.42938 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     id="ö"
+     style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.37795895;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 15333.248,250.68216 C 15325.97,251.39357 15321.937,251.68757 15317.791,262.49435 15315.539,268.36225 15305.979,297.51632 15322.943,298.01893 15334.698,298.36714 15343.448,299.51476 15350.086,285.86733 15352.82,280.24664 15354.592,259.85991 15354.108,257.46787 15353.642,255.16683 15349.96,249.04833 15333.248,250.68216 Z M 15331.361,235 A 2.1782627,2.8361601 59.418752 0 1 15328.14,237.36616 2.1782627,2.8361601 59.418752 0 1 15326.14,235 2.1782627,2.8361601 59.418752 0 1 15329.361,232.63383 2.1782627,2.8361601 59.418752 0 1 15331.361,235 Z M 15356.986,235 A 2.1782627,2.8361601 59.418752 0 1 15353.765,237.36616 2.1782627,2.8361601 59.418752 0 1 15351.765,235 2.1782627,2.8361601 59.418752 0 1 15354.986,232.63383 2.1782627,2.8361601 59.418752 0 1 15356.986,235 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     id="ü"
+     style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.37794998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 17119.382,249.10987 C 17119.382,249.10987 17112.87,276.99846 17112.344,288.18958 17112.102,293.32695 17115.108,299.2475 17124.156,298.11651 17129.26,297.47851 17141.622,292.58755 17147.404,288.94338 M 17154.816,248.98427 17145.884,298.13111 M 17129.742,235.0824 A 2.1782627,2.8361601 59.418752 0 1 17126.521,237.44856 2.1782627,2.8361601 59.418752 0 1 17124.521,235.0824 2.1782627,2.8361601 59.418752 0 1 17127.742,232.71623 2.1782627,2.8361601 59.418752 0 1 17129.742,235.0824 Z M 17155.188,235.0824 A 2.1782627,2.8361601 59.418752 0 1 17151.967,237.44856 2.1782627,2.8361601 59.418752 0 1 17149.967,235.0824 2.1782627,2.8361601 59.418752 0 1 17153.188,232.71623 2.1782627,2.8361601 59.418752 0 1 17155.188,235.0824 Z"
+     inkscape:connector-curvature="0" />
+  <path
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000080;stroke-width:0.18897638;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 8459.1437,235.71374 C 8459.1437,235.71374 8460.0991,248.1939 8441.0715,260 8434.6846,263.96291 8435,272.32143 8447.1429,274.46428 8452.2923,275.37299 8454.4643,276.60714 8453.75,282.14286 8453.3179,285.49172 8451.3885,298.32479 8440.3572,297.14286 L 8425.3572,295.53571 M 8410.1513,297.96439 C 8410.1513,297.96439 8417.5518,257.64152 8421.5155,240.38569 8423.0527,233.69339 8427.6786,227.32143 8437.1429,226.96428 8444.0046,226.70534 8459.3588,224.28462 8459.1437,235.71374"
+     id="ß"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssssccssc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="8485.6602"
+     y="291.52466"
+     id="text87188"><tspan
+       sodipodi:role="line"
+       id="tspan87186"
+       x="8485.6602"
+       y="326.91528" /></text>
+</svg>
