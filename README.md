@@ -19,14 +19,13 @@ Then design the fonts with reference to the guides in the template. Each designe
 (if there are multiple segments they need to be combined in a single path). The path should have the XML ID same as the 
 character text. So A glyph representing A should have its ID set to 'A' (without quotes). <br><br>
 After completing the design the 'Generate Font Data' extension needs to be invoked to store the path data of the 
-glyphs. The glyphs are stored in an XML file (customstrokefontdata.xml). If the font name specified exists the new glyphs are added to it (or replaced
-if there exist any with the same IDs), if not a new font with the given name is created. <br>
+glyphs. The glyphs of a font are stored in an XML file in strokefontdata subfolder within the user extensions folder. The name of the file is the same as the font name, so the font names have all the restrictions that are applicable to file names. If the xml for the given font exists, the glyphs are added to it (or replaced if there exist any with the same IDs), if not a new xml file is created. <br>
 Glyphs can be designed incrementally and can have different templates. <br><br>
 
 Please refer to the SVGs in the fontsvg folder for sample font design. The two bundled  fonts use the same SVGs to 
 generate the font data. <br><br>
 
-The Synchronize Font List extension should be used to synchronize the XML (if it has been changed externally)<br>
+The Synchronize Font List extension should be used to synchronize the font list with the list of font data files (if the folder contents are changed externally)<br>
 
 <b>Video Tutorial:</b> Detailed introduction to the tools can be found at: https://youtu.be/iCsnYlVjWA0
 
@@ -36,7 +35,7 @@ The new stroke fonts are derived from: Square Grotesk and Pinyon Script availabl
 # Limitations
 With the non-english characters, the Generate Font Data extension may produce an error. The work-around is: save the file,
 re-open it and generate the data once again.<br>
-Currently there is no user interface for deleting the fonts. This can be done manually by editing the XML and removing the font element.<br><br>
+Currently there is no user interface for deleting or renaming the fonts. This can be done manually by deleteting or renaming the xml file in the strokefontdata folder followed by synchronization of the font list<br><br>
 The tools are in alpha stage, so please exercise caution while using them. <br>
 You may report the issues and defects on the Issues page here or in the comments section on the video tutorial.<br>
 Feedback and suggestions are most welcome!
