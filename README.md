@@ -29,7 +29,9 @@ generate the font data. <br><br>
 
 The Synchronize Font List extension should be used to synchronize the font list with the list of font data files (if the folder contents are changed externally)<br>
 
-<b>Video Tutorial:</b> Detailed introduction to the tools can be found at: https://youtu.be/iCsnYlVjWA0
+<b>Video Tutorials<br></b> 
+Detailed introduction: https://youtu.be/iCsnYlVjWA0 <br>
+Enhancements Overview: https://youtu.be/-7BjfxpUAfU <br>
 
 # Credits
 The new stroke fonts are derived from: Square Grotesk and Pinyon Script available under Open Font License on https://fontlibrary.org/<br>
