@@ -14,7 +14,7 @@ After installation, the extensions appear under a new sub-menu 'Custom Stroke Fo
 To render a text string using the custom stroke fonts, use the Render Text extension. There are a number of options to taylor the rendering. <br>
 To have an aligned text, create rectangle(s) and select it (them) before invoking the render text tool. Now check the 'Flow Text in Boxes' and select one of the alignment options.<br>
 It's possible to render an entire text file in stroke font with the 'Render text from file' option. For large files, however, it might take considerable time for rendering. The resulting file size may also become quite large, since path of every letter is stored separately.<br>
-The extensions come with 2 pre-designed custom fonts.<br><br>
+The extensions come with 2 pre-designed custom fonts. The existing Hershey Text fonts are also ported to the format required for these extensions. These fonts are available in the Render Text tool with prefix 'Hershey'.<br><br>
 <b>Designing New Fonts<br> </b>
 To create your own font you need to first create a template invoking 'Create Font Design Template' extension.
 Then design the fonts with reference to the guides in the template. Each designed glyph should be a single SVG path 
