@@ -34,7 +34,16 @@ Detailed introduction: https://youtu.be/iCsnYlVjWA0 <br>
 Enhancements Overview: https://youtu.be/-7BjfxpUAfU <br>
 
 # Credits
-The new stroke fonts are derived from: Square Grotesk and Pinyon Script available under Open Font License on https://fontlibrary.org/<br>
+The custom stroke fonts are derived from: Square Grotesk and Pinyon Script available under Open Font License on https://fontlibrary.org/<br><br>
+The Hershey Fonts paths are ported from hersheydata.py from Windell H. Oskay.<br>
+Here's the acknowledgement as prescribed by the creators of the font:
+- The Hershey Fonts were originally created by Dr. A. V. Hershey while working at the U. S. National Bureau of Standards.
+- The format of the Font data in this distribution was originally created by<br>
+James Hurt<br>
+Cognition, Inc.<br>
+900 Technology Park Drive<br>
+Billerica, MA 01821<br>
+(mit-eddie!ci-dandelion!hurt)<br>
 
 # Limitations
 <b>Known Issues<br></b>
