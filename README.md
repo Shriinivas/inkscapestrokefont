@@ -23,6 +23,9 @@ character text. So A glyph representing A should have its ID set to 'A' (without
 After completing the design the 'Generate Font Data' extension needs to be invoked to store the path data of the 
 glyphs. The glyphs of a font are stored in an XML file in strokefontdata subfolder within the user extensions folder. The name of the file is the same as the font name, so the font names have all the restrictions that are applicable to file names. If the xml for the given font exists, the glyphs are added to it (or replaced if there exist any with the same IDs), if not a new xml file is created. <br>
 Glyphs can be designed incrementally and can have different templates. <br><br>
+<b>Editing Stroke Font<br></b>
+Invoke Edit Stroke Font extension to edit an existing font. Choose the font to be edited from the drop down, and enter the number of rows and size. All the stroke font glyphs of the selected font are displayed in the given size, arranged in rows with row count corresponding to the user entered number. You can edit the path of the glyphs. The IDs are already set, but can be changed if you want to design a glyph from another one.<br>
+To save the edited font invoke the Generate Font Data extension and (re)enter the exact font name. The Right Offset option value should always be Vertical Guide / Bounding box. The data generation process is the same as that for new fonts.<br> <br> 
 <b>Sample Font Files<br></b>
 Please refer to the SVGs in the fontsvg folder for sample font design. The two bundled  fonts use the same SVGs to 
 generate the font data. <br><br>
@@ -36,7 +39,7 @@ Enhancements Overview: https://youtu.be/-7BjfxpUAfU <br>
 # Credits
 The custom stroke fonts are derived from: Square Grotesk and Pinyon Script available under Open Font License on https://fontlibrary.org/<br><br>
 The Hershey Fonts are ported from hersheydata.py from Windell H. Oskay.<br>
-Here's the acknowledgement as prescribed by the creators of the font:
+Here's the acknowledgement:
 - The Hershey Fonts were originally created by Dr. A. V. Hershey while working at the U. S. National Bureau of Standards.
 - The format of the Font data in this distribution was originally created by<br>
 James Hurt<br>
