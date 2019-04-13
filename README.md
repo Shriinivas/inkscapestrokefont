@@ -19,18 +19,20 @@ The extensions come with 2 pre-designed custom fonts. The existing Hershey Text 
 To create your own font you need to first create a template invoking 'Create Font Design Template' extension.
 Then design the fonts with reference to the guides in the template. Each designed glyph should be a single SVG path 
 (if there are multiple segments they need to be combined in a single path). The path should have the XML ID same as the 
-character text. So A glyph representing A should have its ID set to 'A' (without quotes). <br><br>
+character text. So A glyph representing A should have its ID set to 'A' (without quotes). <br>
+You can duplicate the guides within the template to define new reference lines if that helps designing the font (example ScriptLastNodeOffset.svg). But bear in mind, only the guides created by the Create Font Design Template extension will be used to calculate the offsets.<br><br>
 After completing the design the 'Generate Font Data' extension needs to be invoked to store the path data of the 
 glyphs. The glyphs of a font are stored in an XML file in strokefontdata subfolder within the user extensions folder. The name of the file is the same as the font name, so the font names have all the restrictions that are applicable to file names. If the xml for the given font exists, the glyphs are added to it (or replaced if there exist any with the same IDs), if not a new xml file is created. <br>
 Glyphs can be designed incrementally and can have different templates. <br><br>
 <b>Editing Stroke Font<br></b>
 Invoke Edit Stroke Font extension to edit an existing font. Choose the font to be edited from the drop down, and enter the number of rows and size. All the stroke font glyphs of the selected font are displayed in the given size, arranged in rows with row count corresponding to the user entered number. You can edit the path of the glyphs. The IDs are already set. If you want to create a new glyph reusing paths of an existing one, just give it the ID corresponding to the new glyph after editing.<br>
 To save the edited font invoke the Generate Font Data extension and (re)enter the exact font name. The Right Offset option value should always be Vertical Guide / Bounding box. The data generation process is the same as that for new fonts.<br> <br> 
+
+The <b>Synchronize Font List</b> extension should be used to synchronize the font list with the list of font data files (if the folder contents are changed externally)<br>
+
 <b>Sample Font Files<br></b>
 Please refer to the SVGs in the fontsvg folder for sample font design. The two bundled  fonts use the same SVGs to 
 generate the font data. <br><br>
-
-The Synchronize Font List extension should be used to synchronize the font list with the list of font data files (if the folder contents are changed externally)<br>
 
 <b>Video Tutorials<br></b> 
 Part1: https://youtu.be/iCsnYlVjWA0 <br>
