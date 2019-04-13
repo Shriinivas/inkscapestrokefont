@@ -108,43 +108,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0000"
        d="M 132.99998,109.4041 V 9.4041"
-       id="_gv0"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0001"
        d="M 265.99998,109.4041 V 9.4041"
-       id="_gv1"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0002"
        d="M 398.99998,109.4041 V 9.4041"
-       id="_gv2"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0003"
        d="M 531.99998,109.4041 V 9.4041"
-       id="_gv3"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0004"
        d="M 664.99998,109.4041 V 9.4041"
-       id="_gv4"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -198,43 +183,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="1"
+       id="lv_0001_0000"
        d="M 132.99997,271.9482 V 171.9482"
-       id="_gv5"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="1"
+       id="lv_0001_0001"
        d="M 265.99997,271.9482 V 171.9482"
-       id="_gv6"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="1"
+       id="lv_0001_0002"
        d="M 398.99997,271.9482 V 171.9482"
-       id="_gv7"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="1"
+       id="lv_0001_0003"
        d="M 531.99997,271.9482 V 171.9482"
-       id="_gv8"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="1"
+       id="lv_0001_0004"
        d="M 664.99997,271.9482 V 171.9482"
-       id="_gv9"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -288,43 +258,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="2"
+       id="lv_0002_0000"
        d="M 132.9999,434.49264 V 334.49264"
-       id="_gv10"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="2"
+       id="lv_0002_0001"
        d="M 265.9999,434.49264 V 334.49264"
-       id="_gv11"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="2"
+       id="lv_0002_0002"
        d="M 398.9999,434.49264 V 334.49264"
-       id="_gv12"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="2"
+       id="lv_0002_0003"
        d="M 531.9999,434.49264 V 334.49264"
-       id="_gv13"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="2"
+       id="lv_0002_0004"
        d="M 664.9999,434.49264 V 334.49264"
-       id="_gv14"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -378,43 +333,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="4"
+       id="lv_0004_0000"
        d="M 133,759.58128 V 659.58128"
-       id="_gv20"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="4"
+       id="lv_0004_0001"
        d="M 266,759.58128 V 659.58128"
-       id="_gv21"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="4"
+       id="lv_0004_0002"
        d="M 399,759.58128 V 659.58128"
-       id="_gv22"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="4"
+       id="lv_0004_0003"
        d="M 532,759.58128 V 659.58128"
-       id="_gv23"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="4"
+       id="lv_0004_0004"
        d="M 665,759.58128 V 659.58128"
-       id="_gv24"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -468,43 +408,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="5"
+       id="lv_0005_0000"
        d="M 133,922.1256 V 822.1256"
-       id="_gv25"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="5"
+       id="lv_0005_0001"
        d="M 266,922.1256 V 822.1256"
-       id="_gv26"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="5"
+       id="lv_0005_0002"
        d="M 399,922.1256 V 822.1256"
-       id="_gv27"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="5"
+       id="lv_0005_0003"
        d="M 532,922.1256 V 822.1256"
-       id="_gv28"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="5"
+       id="lv_0005_0004"
        d="M 665,922.1256 V 822.1256"
-       id="_gv29"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -558,43 +483,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="6"
+       id="lv_0006_0000"
        d="M 133,1084.67 V 984.66996"
-       id="_gv30"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="6"
+       id="lv_0006_0001"
        d="M 266,1084.67 V 984.66996"
-       id="_gv31"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="6"
+       id="lv_0006_0002"
        d="M 399,1084.67 V 984.66996"
-       id="_gv32"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="6"
+       id="lv_0006_0003"
        d="M 532,1084.67 V 984.66996"
-       id="_gv33"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="6"
+       id="lv_0006_0004"
        d="M 665,1084.67 V 984.66996"
-       id="_gv34"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -648,43 +558,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="7"
+       id="lv_0007_0000"
        d="M 133,1247.2143 V 1147.2143"
-       id="_gv35"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="7"
+       id="lv_0007_0001"
        d="M 266,1247.2143 V 1147.2143"
-       id="_gv36"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="7"
+       id="lv_0007_0002"
        d="M 399,1247.2143 V 1147.2143"
-       id="_gv37"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="7"
+       id="lv_0007_0003"
        d="M 532,1247.2143 V 1147.2143"
-       id="_gv38"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="7"
+       id="lv_0007_0004"
        d="M 665,1247.2143 V 1147.2143"
-       id="_gv39"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -728,43 +623,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="3"
+       id="lv_0003_0000"
        d="M 132.9999,597.03701 V 497.03701"
-       id="_gv15"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="3"
+       id="lv_0003_0001"
        d="M 265.9999,597.03701 V 497.03701"
-       id="_gv16"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="3"
+       id="lv_0003_0002"
        d="M 398.9999,597.03701 V 497.03701"
-       id="_gv17"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="3"
+       id="lv_0003_0003"
        d="M 531.9999,597.03701 V 497.03701"
-       id="_gv18"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="3"
+       id="lv_0003_0004"
        d="M 664.9999,597.03701 V 497.03701"
-       id="_gv19"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -828,43 +708,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="8"
+       id="lv_0008_0000"
        d="M 133,1409.7585 V 1309.7585"
-       id="_gv40"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="8"
+       id="lv_0008_0001"
        d="M 266,1409.7585 V 1309.7585"
-       id="_gv41"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="8"
+       id="lv_0008_0002"
        d="M 399,1409.7585 V 1309.7585"
-       id="_gv42"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="8"
+       id="lv_0008_0003"
        d="M 532,1409.7585 V 1309.7585"
-       id="_gv43"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="8"
+       id="lv_0008_0004"
        d="M 665,1409.7585 V 1309.7585"
-       id="_gv44"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -918,43 +783,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="9"
+       id="lv_0009_0000"
        d="M 133,1572.3028 V 1472.3028"
-       id="_gv45"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="9"
+       id="lv_0009_0001"
        d="M 266,1572.3028 V 1472.3028"
-       id="_gv46"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="9"
+       id="lv_0009_0002"
        d="M 399,1572.3028 V 1472.3028"
-       id="_gv47"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="9"
+       id="lv_0009_0003"
        d="M 532,1572.3028 V 1472.3028"
-       id="_gv48"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="9"
+       id="lv_0009_0004"
        d="M 665,1572.3028 V 1472.3028"
-       id="_gv49"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -1008,148 +858,103 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="10"
+       id="lv_0010_0000"
        d="M 133,1734.8472 V 1634.8472"
-       id="_gv50"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="10"
+       id="lv_0010_0001"
        d="M 266,1734.8472 V 1634.8472"
-       id="_gv51"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="10"
+       id="lv_0010_0002"
        d="M 399,1734.8472 V 1634.8472"
-       id="_gv52"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="10"
+       id="lv_0010_0003"
        d="M 532,1734.8472 V 1634.8472"
-       id="_gv53"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="10"
+       id="lv_0010_0004"
        d="M 665,1734.8472 V 1634.8472"
-       id="_gv54"
        style="opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="0"
-       guide="h"
        d="M -2.3999999e-5,74.6235 H 799.99998"
-       id="_gh0"
+       id="h_0"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="1"
-       guide="h"
        d="M -3e-5,237.1676 H 799.99997"
-       id="_gh1"
+       id="h_1"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="2"
-       guide="h"
        d="M -1e-4,399.71204 H 799.9999"
-       id="_gh2"
+       id="h_2"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="4"
-       guide="h"
        d="M 0,724.80068 H 800"
-       id="_gh4"
+       id="h_4"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.013;stroke-miterlimit:4;stroke-dasharray:none"
-       id="_gh5"
-       d="M 0,887.03783 H 800"
-       guide="h"
-       hSeq="5" />
+       id="h_5"
+       d="M 0,887.03783 H 800"/>
     <path
-       hSeq="6"
-       guide="h"
        d="M 0,1049.8894 H 800"
-       id="_gh6"
+       id="h_6"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="7"
-       guide="h"
        d="M 0,1212.4337 H 800"
-       id="_gh7"
+       id="h_7"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="3"
-       guide="h"
        d="M -1e-4,562.25631 H 799.9999"
-       id="_gh3"
+       id="h_3"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="8"
-       guide="h"
        d="M 0,1374.9779 H 800"
-       id="_gh8"
+       id="h_8"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="9"
-       guide="h"
        d="M 0,1537.5222 H 800"
-       id="_gh9"
+       id="h_9"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="10"
-       guide="h"
        d="M 0,1700.0666 H 800"
-       id="_gh10"
+       id="h_10"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="11"
-       guide="h"
        d="M 0,1862.6109 H 800"
-       id="_gh11"
+       id="h_11"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="12"
-       guide="h"
        d="M 0,2025.1552 H 800"
-       id="_gh12"
+       id="h_12"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="13"
-       guide="h"
        d="M 0,2187.6995 H 800"
-       id="_gh13"
+       id="h_13"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       hSeq="14"
-       guide="h"
        d="M 0,2350.2438 H 800"
-       id="_gh14"
+       id="h_14"
        style="display:inline;opacity:1;stroke:#ff0066;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <g
@@ -1353,163 +1158,103 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="11"
+       id="lv_0011_0000"
        d="M 133,1897.3915 V 1797.3915"
-       id="_gv55"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="11"
+       id="lv_0011_0001"
        d="M 266,1897.3915 V 1797.3915"
-       id="_gv56"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="11"
+       id="lv_0011_0002"
        d="M 399,1897.3915 V 1797.3915"
-       id="_gv57"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="11"
+       id="lv_0011_0003"
        d="M 532,1897.3915 V 1797.3915"
-       id="_gv58"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="11"
+       id="lv_0011_0004"
        d="M 665,1897.3915 V 1797.3915"
-       id="_gv59"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="12"
+       id="lv_0012_0000"
        d="M 133,2059.9358 V 1959.9358"
-       id="_gv60"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="12"
+       id="lv_0012_0001"
        d="M 266,2059.9358 V 1959.9358"
-       id="_gv61"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="12"
+       id="lv_0012_0002"
        d="M 399,2059.9358 V 1959.9358"
-       id="_gv62"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="12"
+       id="lv_0012_0003"
        d="M 532,2059.9358 V 1959.9358"
-       id="_gv63"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="12"
+       id="lv_0012_0004"
        d="M 665,2059.9358 V 1959.9358"
-       id="_gv64"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="13"
+       id="lv_0013_0000"
        d="M 133,2222.4801 V 2122.4801"
-       id="_gv65"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="13"
+       id="lv_0013_0001"
        d="M 266,2222.4801 V 2122.4801"
-       id="_gv66"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="13"
+       id="lv_0013_0002"
        d="M 399,2222.4801 V 2122.4801"
-       id="_gv67"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="13"
+       id="lv_0013_0003"
        d="M 532,2222.4801 V 2122.4801"
-       id="_gv68"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="13"
+       id="lv_0013_0004"
        d="M 665,2222.4801 V 2122.4801"
-       id="_gv69"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="14"
+       id="lv_0014_0000"
        d="M 133,2385.0244 V 2285.0244"
-       id="_gv70"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="14"
+       id="lv_0014_0001"
        d="M 266,2385.0244 V 2285.0244"
-       id="_gv71"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="14"
+       id="lv_0014_0002"
        d="M 399,2385.0244 V 2285.0244"
-       id="_gv72"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="14"
+       id="lv_0014_0003"
        d="M 532,2385.0244 V 2285.0244"
-       id="_gv73"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="14"
+       id="lv_0014_0004"
        d="M 665,2385.0244 V 2285.0244"
-       id="_gv74"
        style="display:inline;opacity:1;stroke:#00aa88;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0" />
   </g>

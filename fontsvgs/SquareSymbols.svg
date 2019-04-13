@@ -55,10 +55,8 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <path
-       hSeq="0"
-       guide="h"
        d="M 0,300 H 4986.2549"
-       id="_gh0"
+       id="h_0"
        style="opacity:1;stroke:#ff0066;stroke-width:0.1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -66,11 +64,8 @@
        style="font-style:italic;font-weight:normal;font-size:100px;font-family:'Square Grotesk';text-align:start;fill:#e6e6e6;fill-opacity:0.5;stroke:#000000;stroke-width:0.1;stroke-opacity:0.6"
        id="text933" />
     <path
-       vSeq="0"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0000"
        d="M 300,366.71667 V 166.71667"
-       id="_gvl0"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -84,11 +79,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="1"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0001"
        d="M 600,366.71667 V 166.71667"
-       id="_gvl1"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -102,11 +94,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="2"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0002"
        d="M 900,366.71667 V 166.71667"
-       id="_gvl2"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -120,11 +109,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="3"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0003"
        d="M 1200,366.71667 V 166.71667"
-       id="_gvl3"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -138,11 +124,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="4"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0004"
        d="M 1500,366.71667 V 166.71667"
-       id="_gvl4"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -156,11 +139,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="5"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0005"
        d="M 1800,366.71667 V 166.71667"
-       id="_gvl5"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -174,11 +154,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="6"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0006"
        d="M 2100,366.71667 V 166.71667"
-       id="_gvl6"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -192,11 +169,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="7"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0007"
        d="M 2400,366.71667 V 166.71667"
-       id="_gvl7"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -210,11 +184,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="8"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0008"
        d="M 2700,366.71667 V 166.71667"
-       id="_gvl8"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -228,11 +199,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="9"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0009"
        d="M 3000,366.71667 V 166.71667"
-       id="_gvl9"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -246,11 +214,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="10"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0010"
        d="M 3300,366.71667 V 166.71667"
-       id="_gvl10"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -264,11 +229,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="11"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0011"
        d="M 3600,366.71667 V 166.71667"
-       id="_gvl11"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -282,11 +244,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="12"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0012"
        d="M 3900,366.71667 V 166.71667"
-       id="_gvl12"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -300,11 +259,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="13"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0013"
        d="M 4200,366.71667 V 166.71667"
-       id="_gvl13"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -318,11 +274,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="14"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0014"
        d="M 4500,366.71667 V 166.71667"
-       id="_gvl14"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
     <g
@@ -336,11 +289,8 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       vSeq="15"
-       guide="lv"
-       hSeq="0"
+       id="lv_0000_0015"
        d="M 4800,366.71667 V 166.71667"
-       id="_gvl15"
        style="opacity:1;stroke:#00aa88;stroke-width:0.1"
        inkscape:connector-curvature="0" />
   </g>
