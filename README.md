@@ -14,13 +14,13 @@ After installation, the extensions appear under a new sub-menu 'Custom Stroke Fo
 To render a text string using the custom stroke fonts, use the Render Text extension. There are a number of options to taylor the rendering. <br>
 To have an aligned text, create rectangle(s) and select it (them) before invoking the render text tool. Now check the 'Flow Text in Boxes' and select one of the alignment options.<br>
 It's possible to render an entire text file in stroke font with the 'Render text from file' option. For large files, however, it might take considerable time for rendering. The resulting file size may also become quite large, since path of every letter is stored separately.<br>
-The extensions come with 2 pre-designed custom fonts. The existing Hershey Text fonts are also ported to the format required for these extensions. These fonts are available in the Render Text tool with prefix 'Hershey'.<br><br>
+The extensions come with 3 pre-designed custom fonts. The existing Hershey Text fonts are also ported to the format required for these extensions. These fonts are available in the Render Text tool with prefix 'Hershey'.<br><br>
 <b>Designing New Fonts<br> </b>
 To create your own font you need to first create a template invoking 'Create Font Design Template' extension.
 Then design the fonts with reference to the guides in the template. Each designed glyph should be a single SVG path 
 (if there are multiple segments they need to be combined in a single path). The path should have the XML ID same as the 
 character text. So A glyph representing A should have its ID set to 'A' (without quotes). <br>
-You can duplicate the guides within the template to define new reference lines if that helps designing the font (example ScriptLastNodeOffset.svg). But bear in mind, only the guides created by the Create Font Design Template extension will be used to calculate the offsets.<br><br>
+You can duplicate the guides within the template to define new reference lines if that helps designing the font (example ScriptLastNodeOffset.svg and ScriptGlyphsAlignedWithEditExt.svg). But bear in mind, only the guides created by the Create Font Design Template extension will be used to calculate the offsets.<br><br>
 After completing the design the 'Generate Font Data' extension needs to be invoked to store the path data of the 
 glyphs. The glyphs of a font are stored in an XML file in strokefontdata subfolder within the user extensions folder. The name of the file is the same as the font name, so the font names have all the restrictions that are applicable to file names. If the xml for the given font exists, the glyphs are added to it (or replaced if there exist any with the same IDs), if not a new xml file is created. <br>
 Glyphs can be designed incrementally and can have different templates. <br><br>
@@ -31,7 +31,7 @@ To save the edited font invoke the Generate Font Data extension and (re)enter th
 The <b>Synchronize Font List</b> extension should be used to synchronize the font list with the list of font data files (if the folder contents are changed externally)<br>
 
 <b>Sample Font Files<br></b>
-Please refer to the SVGs in the fontsvg folder for sample font design. The two bundled  fonts use the same SVGs to 
+Please refer to the SVGs in the fontsvg folder for sample font design. The three bundled  fonts use the same SVGs to 
 generate the font data. <br><br>
 
 <b>Video Tutorials<br></b> 
