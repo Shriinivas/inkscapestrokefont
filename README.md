@@ -59,7 +59,6 @@ Billerica, MA 01821<br>
 re-open it and generate the data once again.<br>
 - If you are using Inkscape on windows, there could be problems rendering non-english characters (like ö or ß) with the text keyed in the input text box. A work-around is to create a text file with the text containing these characters and render the text using, 'Render from file' option. <br>
 Currently there is no user interface for deleting or renaming the fonts. This can be done manually by deleteting or renaming the xml file in the strokefontdata folder followed by synchronization of the font list<br><br>
-
-The tools are in alpha stage, so please exercise caution while using them. <br>
+<b>The tools are in alpha stage, so please exercise caution while using them; save your work, before invoking any of these extensions. </b><br>
 You may report the issues and defects on the Issues page here or in the comments section on the video tutorial.<br>
 Feedback and suggestions are most welcome!
