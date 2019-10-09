@@ -53,11 +53,10 @@ Cognition, Inc.<br>
 Billerica, MA 01821<br>
 (mit-eddie!ci-dandelion!hurt)<br>
 
-# Limitations
-<b>Known Issues<br></b>
-- With the non-english characters, the Generate Font Data extension may produce an error. The work-around is: save the file,
+# Known Issues & Workarounds
+- With the non-english characters, the Generate Font Data extension may produce an error. The workaround is: save the file,
 re-open it and generate the data once again.<br>
-- If you are using Inkscape on windows, there could be problems rendering extended (e.g. non-english) characters (like ö or ß) with the text keyed in the input text box. A work-around is to create a text file with the text containing these characters and render the text using, 'Render from file' option. <br>
+- If you are using Inkscape on windows, there could be problems rendering extended (e.g. non-english) characters (like ö or ß) with the text keyed in the input text box. A workaround is to create a text file with the text containing these characters and render the text using, 'Render from file' option. <br>
 - If you are using Inkscape on windows, an extended (e.g. non-English) character in the First Glyph of Create Font Design Template extension may not work right. In such cases, you can enter the 4 digit hex unicode value of the first character (e.g. 00C0 for À) in the First Glyph field. You will get the unicode values of the characters from the Character Map.<br>
 - Currently there is no user interface for deleting or renaming the fonts. This can be done manually by deleteting or renaming the xml file in the strokefontdata folder followed by synchronization of the font list<br>
 
