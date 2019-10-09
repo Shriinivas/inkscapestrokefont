@@ -60,6 +60,6 @@ re-open it and generate the data once again.<br>
 - If you are using Inkscape on windows, an extended (e.g. non-English) character in the First Glyph of Create Font Design Template extension may not work right. In such cases, you can enter the 4 digit hex unicode value of the first character (e.g. 00C0 for À) in the First Glyph field. You will get the unicode values of the characters from the Character Map.<br>
 - Currently there is no user interface for deleting or renaming the fonts. This can be done manually by deleteting or renaming the xml file in the strokefontdata folder followed by synchronization of the font list<br>
 
-Please exercise caution while using the tools; save your work, before invoking any of these extensions. </b><br>
+Please exercise caution while using the tools; save your work, before invoking any of these extensions.<br>
 You may report the issues and defects on the Issues page here or in the comments section on the video tutorial.<br>
 Feedback and suggestions are most welcome!
