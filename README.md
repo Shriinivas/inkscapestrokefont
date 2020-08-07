@@ -3,6 +3,8 @@ The extensions provided here extend the functionality of the Hershey Text Effect
 (Copyright 2011, Windell H. Oskay, www.evilmadscientist.com) to allow the users
 to create their own fonts (including non-english ones) and render text using them. 
 
+### Compatible with Inkscape versions 1.0 and 0.92
+
 # Installation
 Download inkscapestrokefont.zip and extract all its contents in the Inkscape user extension folder. 
 The extension folder can be found from the System option in Edit->Preference dialog. <br>
