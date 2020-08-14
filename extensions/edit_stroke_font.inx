@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Edit Stroke Font</_name>
+    <id>khema.stroke.fnt.edit</id>
+    <dependency type="executable" location="extensions">edit_stroke_font.py</dependency>
+    <dependency type="executable" location="extensions">inkex.py</dependency>
+    <param name="tab" type="notebook">
+        <page name="editStrokeFont" _gui-text="Edit Stroke Font">-->
+              <param name="fontName" type="enum" _gui-text="Font:">
+              <!-- ##! dynamically generated portion [start] -->
+                  <item value="Custom-Script">Custom-Script</item>
+                  <item value="Custom-Square Italic">Custom-Square Italic</item>
+                  <item value="Custom-Square Normal">Custom-Square Normal</item>
+                  <item value="Hershey-Astrology">Hershey-Astrology</item>
+                  <item value="Hershey-Cyrillic">Hershey-Cyrillic</item>
+                  <item value="Hershey-Gothic English">Hershey-Gothic English</item>
+                  <item value="Hershey-Gothic German">Hershey-Gothic German</item>
+                  <item value="Hershey-Gothic Italian">Hershey-Gothic Italian</item>
+                  <item value="Hershey-Greek 1-stroke">Hershey-Greek 1-stroke</item>
+                  <item value="Hershey-Greek medium">Hershey-Greek medium</item>
+                  <item value="Hershey-Japanese">Hershey-Japanese</item>
+                  <item value="Hershey-Markers">Hershey-Markers</item>
+                  <item value="Hershey-Math (lower)">Hershey-Math (lower)</item>
+                  <item value="Hershey-Math (upper)">Hershey-Math (upper)</item>
+                  <item value="Hershey-Meteorology">Hershey-Meteorology</item>
+                  <item value="Hershey-Music">Hershey-Music</item>
+                  <item value="Hershey-Sans 1-stroke">Hershey-Sans 1-stroke</item>
+                  <item value="Hershey-Sans bold">Hershey-Sans bold</item>
+                  <item value="Hershey-Script 1-stroke">Hershey-Script 1-stroke</item>
+                  <item value="Hershey-Script 1-stroke (alt)">Hershey-Script 1-stroke (alt)</item>
+                  <item value="Hershey-Script medium">Hershey-Script medium</item>
+                  <item value="Hershey-Serif bold">Hershey-Serif bold</item>
+                  <item value="Hershey-Serif bold italic">Hershey-Serif bold italic</item>
+                  <item value="Hershey-Serif medium">Hershey-Serif medium</item>
+                  <item value="Hershey-Serif medium italic">Hershey-Serif medium italic</item>
+                  <item value="Hershey-Symbolic">Hershey-Symbolic</item>
+              <!-- ##! dynamically generated portion [end] -->
+              </param>            
+
+            <param name="rowCnt" type="int" min = "1" max = "999999" _gui-text="No of Rows:">5</param>
+            <param name="fontSize" type="int" default = "1000" min = "5" max = "999999" _gui-text="Font Size:">1000</param>
+
+            <_param name="help-info" type="description">This extension overwrites the current document</_param>            
+        </page>
+        
+        <page name="desc" _gui-text="Help">
+            <_param name="createStrokeFontTemplHelp" type="description" xml:space="preserve">Inkscape extension for editing a stroke font. 
+           </_param>
+        </page>
+    </param>    
+    <effect>
+        <object-type>path</object-type>
+        <effects-menu>
+            <submenu _name="Custom Stroke Font"/>
+        </effects-menu>
+   </effect>
+    <script>
+        <command reldir="extensions" interpreter="python">edit_stroke_font.py</command>
+    </script>
+</inkscape-extension>
