@@ -6,9 +6,10 @@ to create their own fonts (including non-english ones) and render text using the
 ### Compatible with Inkscape versions 1.0 and 0.92
 
 # Installation
-Download inkscapestrokefont.zip and extract all its contents in the Inkscape user extension folder. 
-The extension folder can be found from the System option in Edit->Preference dialog. <br>
-You will need to restart Inkscape.
+1) Click 'Code' button located at the top of the repository and click Download Zip to download the repository contents (or you can simply clone the repository)
+2) Extract the zip file 
+3) Copy the all the contents of the extensions folder from the extracted file in the Inkscape user extension folder. The extension folder can be found from the System option in Edit->Preference dialog. <br>
+4) Restart inkscape if it's already running
 
 # Usage
 After installation, the extensions appear under a new sub-menu 'Custom Stroke Font' under Extensions menu of inkscape.<br><br>
