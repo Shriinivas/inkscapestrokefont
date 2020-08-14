@@ -35,7 +35,7 @@ To save the edited font invoke the Generate Font Data extension and (re)enter th
 The <b>Synchronize Font List</b> extension should be used to synchronize the font list with the list of font data files (if the folder contents are changed externally)<br>
 
 <b>Sample Font Files<br></b>
-Please refer to the SVGs in the fontsvg folder for sample font design. The three bundled  fonts use the same SVGs to 
+Please refer to the SVGs in the [fontsvg](https://github.com/Shriinivas/etc/tree/master/inkscapestrokefont/fontsvgs) folder for sample font design. The three bundled  fonts use the same SVGs to 
 generate the font data. <br><br>
 
 <b>Interoperability with Inkscape 1.0 Hershey Text Extension <br></b>
