@@ -1,7 +1,5 @@
 # Inkscape Extensions to Create Custom Stroke Fonts and Render Text Using Them
-The extensions provided here extend the functionality of the Hershey Text Effect
-(Copyright 2011, Windell H. Oskay, www.evilmadscientist.com) to allow the users
-to create their own fonts (including non-english ones) and render text using them. 
+These extensions allow the users to create and edit their own stroke fonts (including non-english ones) and render text using them. The fonts created with these extensions are compatible with the fonts used by the Hershey Text Effect (Copyright 2011, Windell H. Oskay, www.evilmadscientist.com) available in Inkscape 1.0.
 
 ### Compatible with Inkscape versions 1.0 and 0.92
 
