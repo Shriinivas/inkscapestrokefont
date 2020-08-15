@@ -6,8 +6,9 @@ These extensions allow the users to create and edit their own stroke fonts (incl
 # Installation
 1) Click on the Code button above the repository list
 2) Select Download Zip option and save the zip file to a local folder
-3) Extract the contents of the folder within the downloaded zip file in the Inkscape user extension folder. (For example: if your download file is inkscapestrokefont-master.zip, then opening the file will show a single folder called inkscapestrokefont-master. Double click this folder within the zip and extract all its contents in the extensions folder.) The extension folder can be found from the System option in Edit->Preference dialog. <br>
-4) Restart inkscape if it was running
+3) Locate the User Extensions folder, this can be found from the System option in Edit->Preference dialog. <br>
+4) Extract the contents of the folder within the downloaded zip file in the Inkscape user extension folder. For example: if your download file is inkscapestrokefont-master.zip, then opening the file will show a single folder called inkscapestrokefont-master. Double click this folder within the zip and extract all its contents in the extensions folder. So after extracting the zip, there should be 14 files and one 1 folder called 'strokefontdata' added in the user extensions folder
+5) Restart inkscape if it was running
 
 # Usage
 After installation, the extensions appear under a new sub-menu 'Custom Stroke Font' under Extensions menu of inkscape.<br><br>
