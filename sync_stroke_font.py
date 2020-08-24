@@ -28,7 +28,7 @@ import inkex, os, sys
 from xml.dom.minidom import parse
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__))) 
-from stroke_font_common import syncFontList
+from stroke_font_common import syncFontList, runEffect
 
 class SyncFontListEffect(inkex.Effect):
 
@@ -39,5 +39,4 @@ class SyncFontListEffect(inkex.Effect):
         extPath = os.path.dirname(os.path.abspath(__file__))
         syncFontList(extPath)
 
-effect = SyncFontListEffect()
-effect.affect()
+runEffect(SyncFontListEffect())
