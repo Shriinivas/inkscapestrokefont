@@ -6,7 +6,7 @@
         <page name="createStrokeFontTempl" _gui-text="Create Font Design Template">-->
         
             <param name="rowCnt" type="int" min = "1" max = "999999" _gui-text="No of Rows:">5</param>
-            <param name="glyphCnt" type="int" min = "1" max = "999999" _gui-text="Glyph Count:">75</param>
+            <param name="glyphCnt" type="int" min = "1" max = "999999" _gui-text="Glyph Count:">175</param>
             <param name="fontSize" type="int" default = "1000" min = "5" max = "999999" _gui-text="Font Size:">1000</param>
             <param name="spaceWidth" type="int" default = "500" min = "1" max = "999999" _gui-text="Space Width:">500</param>
             <param name="rvGuides" type="boolean" _gui-text="Right Vertical Guides">False</param>
