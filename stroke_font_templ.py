@@ -64,16 +64,22 @@ class CustStrokeFontTempl(Effect):
         addFn("--rvGuides", action = "store", type = typeBool, dest = "rvGuides", \
             default = False, help = 'Render vertical guide at the right of each glyph')
 
+        addFn("--fillOpacity", action = "store", type = typeFloat, dest = "fillOpacity", \
+            default = False, help = 'Fill opacity of source glyph')
+
+        addFn("--strokeOpacity", action = "store", type = typeFloat, dest = "strokeOpacity", \
+            default = False, help = 'Stroke opacity of source glyph')
+
         addFn("--tab", action = "store", type = typeString, dest = "tab", \
             default = "sampling", help="Tab") 
           
-    def addElem(self, templLayer, editLayer, glyphIdx, posX, posY):
+    def addElem(self, sourceGlyphLayer, editLayer, glyphIdx, posX, posY):
         if(self.createTTGlyphs):
             if(CommonDefs.pyVer == 2):
                 glyph = unichr(ord(self.startGlyph) + glyphIdx)
             else:
                 glyph = chr(ord(self.startGlyph) + glyphIdx)
-            addText(templLayer, glyph, posX, posY, self.textStyle)
+            addText(sourceGlyphLayer, glyph, posX, posY, self.textStyle)
             
         return None
 
@@ -85,6 +91,8 @@ class CustStrokeFontTempl(Effect):
         glyphCnt = self.options.glyphCnt
         rvGuides = self.options.rvGuides
         fontSize = self.options.fontSize
+        strokeOpacity = self.options.strokeOpacity
+        fillOpacity = self.options.fillOpacity
         spaceWidth = self.options.spaceWidth
         
         self.createTTGlyphs = self.options.createGlyphs
@@ -112,8 +120,8 @@ class CustStrokeFontTempl(Effect):
             fontStyle = 'normal'
         
         self.textStyle = {'font-family':srcFontFamily, 'font-size':str(fontSize),\
-        'fill':'#e6e6e6', 'fill-opacity':'.5', 'stroke':'#000000', 'stroke-width':str(lineT),\
-        'stroke-opacity':'.6', 'font-style':fontStyle,'font-weight':fontWeight,\
+        'fill':'#000000', 'fill-opacity':str(fillOpacity), 'stroke':'#000000', 'stroke-width':str(lineT),\
+        'stroke-opacity':str(strokeOpacity), 'font-style':fontStyle,'font-weight':fontWeight,\
         'text-align':'start'}
 
         vgScaleFact = CommonDefs.vgScaleFact
@@ -124,6 +132,6 @@ class CustStrokeFontTempl(Effect):
         extraInfo[xSpaceROff] = spaceWidth
 
         createTempl(self.addElem, self, extraInfo, rowCnt, glyphCnt, vgScaleFact, \
-            rvGuides, lineT)
+            rvGuides, lineT, newCallBackLayerName = 'Source Glyphs')
     
 runEffect(CustStrokeFontTempl())

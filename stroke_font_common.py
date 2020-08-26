@@ -288,7 +288,7 @@ def addText(layer, textStr, posX, posY, style):
 
 
 def createTempl(callback, effect, extraInfo, rowCnt, glyphCnt, \
-    vgScaleFact, createRvGuides, lineT):
+    vgScaleFact, createRvGuides, lineT, newCallBackLayerName = None):
 
         hgStyle = {'stroke-width':str(lineT), 'opacity':'1', 'stroke':'#ff0066'}
         lvgStyle = {'stroke-width':str(lineT), 'opacity':'1', 'stroke':'#00aa88'}
@@ -338,16 +338,23 @@ def createTempl(callback, effect, extraInfo, rowCnt, glyphCnt, \
         extraInfoElem.set(xFontId, str(extraInfo[xFontId]))
         extraInfoElem.set(xSize, str(extraInfo[xSize]))
 
+        templLayer = etree.SubElement(svg, 'g')
+        templLayer.set(addNS('label', 'inkscape'), 'Guides')
+        templLayer.set(addNS('groupmode', 'inkscape'), 'layer')
+
+        if(newCallBackLayerName != None):
+            callbackLayer = etree.SubElement(svg, 'g')
+            callbackLayer.set(addNS('label', 'inkscape'), newCallBackLayerName)
+            callbackLayer.set(addNS('groupmode', 'inkscape'), 'layer')
+        else:
+            callbackLayer = templLayer
+
         editLayer = etree.SubElement(svg, 'g')
         editLayer.set(addNS('label', 'inkscape'), 'Glyphs')
         editLayer.set(addNS('groupmode', 'inkscape'), 'layer')
         editLayer.set('id', 'glyph')#TODO: How to make this dynamic?
         view = svg.namedview if CommonDefs.inkVer == 1.0 else effect.getNamedView() 
         view.set(addNS('current-layer', 'inkscape'), editLayer.get('id'))
-
-        templLayer = etree.SubElement(svg, 'g')
-        templLayer.set(addNS('label', 'inkscape'), 'Template')
-        templLayer.set(addNS('groupmode', 'inkscape'), 'layer')
 
         for row in range(0, rowCnt):
 
@@ -365,7 +372,7 @@ def createTempl(callback, effect, extraInfo, rowCnt, glyphCnt, \
                 posY = (row + 1) * spcY# + lineT / 2
 
                 #Caller can create whatever it wants at this position
-                rOffset = callback(templLayer, editLayer, glyphIdx, posX, posY)
+                rOffset = callback(callbackLayer, editLayer, glyphIdx, posX, posY)
                 if(rOffset == None):
                     rOffset = fontSize
 
