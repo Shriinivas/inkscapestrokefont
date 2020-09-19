@@ -233,9 +233,9 @@ class RenderStrokeFontText(Effect):
 
         if(flowInBox == True):
             selElems = getSelectedElements(self)
+            selIds = [selElems[key].get('id') for key in selElems.keys()]
             rectNodes = [r for r in self.document.xpath('//svg:rect', \
-                namespaces=NSS) if r.get('id') in selElems.keys()]
-                
+                namespaces=NSS) if r.get('id') in selIds]
             if(len(rectNodes) == 0):
                 errormsg(_("No rectangle objects selected."))
                 return
