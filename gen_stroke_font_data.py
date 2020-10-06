@@ -140,7 +140,7 @@ def updateFontData(strokeFontData, glyphPathElems, hGuides, lvGuides, rvGuides, 
                 for pt in seg:
                     x = round(pt[0] - lvgX, 2)
                     y = round(pt[1] - hgY, 2)
-                    nseg.append([x, y])
+                    nseg.append([round(x, 4), round(y, 4)])
                 nsub.append(nseg)
             npath.append(nsub)
 
