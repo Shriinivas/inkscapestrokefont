@@ -77,7 +77,7 @@ class FontData:
             os.makedirs(dataFileDirPath)
 
         try:
-            with open(self.dataFilePath) as xml:
+            with open(self.dataFilePath, encoding="UTF-8") as xml:
                 dataDoc = parse(xml)
             fontDefs = dataDoc.getElementsByTagName(xDefs)[0]
         except Exception as e:
@@ -128,7 +128,7 @@ class FontData:
             self.extraInfo = {}
             for key in info:
                 if(isinstance(info[key], float) or isinstance(info[key], int)):
-                    self.extraInfo[key] = fontSize * info[key] / oldFontSize 
+                    self.extraInfo[key] = fontSize * info[key] / oldFontSize
                 else:
                     self.extraInfo[key] = info[key]
 
@@ -150,7 +150,7 @@ class FontData:
     def hasGlyphs(self):
         return len(self.glyphMap) > 0
 
-	# invertY = True because glyph was inverted in FontData constructor
+    # invertY = True because glyph was inverted in FontData constructor
     def updateFontXML(self, invertY = True):
         imp = getDOMImplementation()
         doctype = imp.createDocumentType('svg', "-//W3C//DTD SVG 1.1//EN", \
@@ -210,11 +210,10 @@ class FontData:
 
             fontElem.appendChild(glyphElem)
 
-        f = open(self.dataFilePath, "w")
-        xmlStr = doc.toxml(encoding="UTF-8")
-        if(sys.version_info.major == 3): xmlStr = xmlStr.decode("UTF-8")
-        f.write(xmlStr)
-        f.close()
+        with open(self.dataFilePath, "w", encoding="UTF-8") as f:
+            xmlStr = doc.toxml(encoding="UTF-8")
+            if(sys.version_info.major == 3): xmlStr = xmlStr.decode("UTF-8")
+            f.write(xmlStr)
 
 
 class DrawContext:
