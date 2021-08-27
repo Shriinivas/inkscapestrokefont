@@ -5,7 +5,7 @@
     <dependency type="executable" location="extensions">edit_stroke_font.py</dependency>
     <dependency type="executable" location="extensions">inkex.py</dependency>
     <param name="tab" type="notebook">
-        <page name="editStrokeFont" _gui-text="Edit Stroke Font">-->
+        <page name="editStrokeFont" _gui-text="Edit Stroke Font">
               <param name="fontName" type="enum" _gui-text="Font:">
               <!-- ##! dynamically generated portion [start] -->
                   <item value="Custom-Script">Custom-Script</item>
@@ -35,19 +35,19 @@
                   <item value="Hershey-Serif medium italic">Hershey-Serif medium italic</item>
                   <item value="Hershey-Symbolic">Hershey-Symbolic</item>
               <!-- ##! dynamically generated portion [end] -->
-              </param>            
+              </param>
 
             <param name="rowCnt" type="int" min = "1" max = "999999" _gui-text="No of Rows:">5</param>
             <param name="fontSize" type="int" default = "1000" min = "5" max = "999999" _gui-text="Font Size:">1000</param>
 
-            <_param name="help-info" type="description">This extension overwrites the current document</_param>            
+            <_param name="help-info" type="description">This extension overwrites the current document</_param>
         </page>
-        
+
         <page name="desc" _gui-text="Help">
-            <_param name="createStrokeFontTemplHelp" type="description" xml:space="preserve">Inkscape extension for editing a stroke font. 
+            <_param name="createStrokeFontTemplHelp" type="description" xml:space="preserve">Inkscape extension for editing a stroke font.
            </_param>
         </page>
-    </param>    
+    </param>
     <effect>
         <object-type>path</object-type>
         <effects-menu>
