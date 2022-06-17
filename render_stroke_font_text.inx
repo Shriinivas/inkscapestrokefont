@@ -2,9 +2,6 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <_name>Render Text</_name>
   <id>khema.stroke.fnt.render.text</id>
-  <dependency type="executable" location="extensions">render_stroke_font_text.py</dependency>
-  <dependency type="executable" location="extensions">inkex.py</dependency>
-
   <param name="tab" type="notebook">
     <page name="splash" _gui-text="Render Text">
       <param name="text" type="string" _gui-text="Text:"></param>

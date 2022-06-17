@@ -2,8 +2,6 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
     <_name>Edit Stroke Font</_name>
     <id>khema.stroke.fnt.edit</id>
-    <dependency type="executable" location="extensions">edit_stroke_font.py</dependency>
-    <dependency type="executable" location="extensions">inkex.py</dependency>
     <param name="tab" type="notebook">
         <page name="editStrokeFont" _gui-text="Edit Stroke Font">
               <param name="fontName" type="enum" _gui-text="Font:">
