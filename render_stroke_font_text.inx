@@ -47,6 +47,7 @@
       <param name="charSpacing" type="float" min = "0" max = "100" _gui-text="Char Spacing:">1</param>
       <param name="wordSpacing" type="float" min = "0" max = "100" _gui-text="Word Spacing:">1</param>
       <param name="lineSpacing" type="float" min = "0" max = "100" _gui-text="Line Spacing:">1.5</param>
+      <param name="strokeWidthMult" type="float" min = "0" max = "100" _gui-text="Stroke Width:">1</param>
 
       <param name="flowInBox" type="boolean" _gui-text="Flow Text in Selected Boxes:">true</param>
       <param name="margin" type="float" min = "-999999" max = "999999" _gui-text="Margin:">5</param>

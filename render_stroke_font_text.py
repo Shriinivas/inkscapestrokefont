@@ -150,6 +150,9 @@ class RenderStrokeFontText(Effect):
         addFn('--lineSpacing', action = 'store', type = typeFloat, dest = 'lineSpacing', \
             default = '1.5', help = 'Spacing between the lines')
 
+        addFn('--strokeWidthMult', action = 'store', type = typeFloat, dest = 'strokeWidthMult', \
+            default = '1', help = 'Stroke Width Proportion')
+
         addFn('--flowInBox', action = 'store', type = typeBool, dest = 'flowInBox', \
             default = False, help = 'Fit the text in the selected rectangle objects')
 
@@ -173,6 +176,7 @@ class RenderStrokeFontText(Effect):
         fontSize = self.options.fontSize
         filePath = self.options.filePath
         action = self.options.action
+        strokeWidthMult = self.options.strokeWidthMult
 
         if(action == "renderTable"):
             charSpacing = 1
@@ -196,7 +200,7 @@ class RenderStrokeFontText(Effect):
 
         extPath = os.path.dirname(os.path.abspath(__file__))
         
-        strokeWidth = 0.02 * fontSize
+        strokeWidth = 0.02 * fontSize * strokeWidthMult
         
         layer = getCurrentLayer(self)
         renderer = InkscapeFontRenderer(layer, getViewCenter(self), strokeWidth)
