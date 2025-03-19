@@ -26,23 +26,23 @@ from inkex import errormsg, addNS, NSS
 from xml.dom.minidom import parse, Document
 from math import ceil
 
-# TODO: Find inkscape version
-try:
-    from lxml import etree
-    from inkex import Style, Boolean
-    from inkex.paths import Path, CubicSuperPath, Transform
-    from inkex import bezier
-    ver = 1.0 
-except:
-    from inkex import etree
-    import simplestyle, cubicsuperpath, simplepath, simpletransform
-    from cubicsuperpath import CubicSuperPath
-    ver = 0.92
-    try:
-        from simpletransform import computePointInNode
-        oldVersion = False
-    except:
-        oldVersion = True # older than 0.92
+# TODO: Remove version check everywhere (Now only works for 1.4 and above)
+# ~ try:
+from lxml import etree
+from inkex import Style, Boolean, Transform
+from inkex.paths import Path, CubicSuperPath
+from inkex import bezier
+ver = 1.0 
+# ~ except Exception as e:
+    # ~ from inkex import etree
+    # ~ import simplestyle, cubicsuperpath, simplepath, simpletransform
+    # ~ from cubicsuperpath import CubicSuperPath
+    # ~ ver = 0.92
+    # ~ try:
+        # ~ from simpletransform import computePointInNode
+        # ~ oldVersion = False
+    # ~ except:
+        # ~ oldVersion = True # older than 0.92
 
 # sys path already includes the module folder
 from stroke_font_manager import CharData, getFontNames, xAscent, \
@@ -63,7 +63,7 @@ class CommonDefs:
     lvGuideIDPrefix = 'lv_'
     rvGuideIDPrefix = 'rv_'
 
-    fontOtherInfo = 'otherInfo'
+    fontOtherInfo = 'metadata' #'otherInfo'
 
     encoding = sys.stdin.encoding
     if(encoding == 'cp0' or encoding is None):
@@ -312,7 +312,7 @@ def createTempl(callback, effect, extraInfo, rowCnt, glyphCnt, \
 
         #Remove viewbox
         if('viewBox' in svg.attrib):
-            svg.attrib.pop('viewBox')
+            svg.attrib['viewBox'] = ''
 
         currLayers = svg.xpath('//svg:g', namespaces = NSS)
         for layer in currLayers:
