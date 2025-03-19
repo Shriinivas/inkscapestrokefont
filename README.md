@@ -2,7 +2,7 @@
 
 These extensions allow the users to create and edit their own stroke fonts (including non-english ones) and render text using them. The fonts created with these extensions are compatible with the fonts used by the Hershey Text Effect (Copyright 2011, Windell H. Oskay, www.evilmadscientist.com) available in Inkscape 1.0. Three new custom fonts (including a cursive one) are prebundled with the extensions.
 
-### Compatible with Inkscape versions 1.4
+### Compatible with Inkscape versions 1.4+
 
 # Installation
 
