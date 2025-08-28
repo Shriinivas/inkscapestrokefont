@@ -43,11 +43,11 @@
           <item value="Hershey-Symbolic">Hershey-Symbolic</item>
       <!-- ##! dynamically generated portion [end] -->
       </param>
-      <param name="fontSize" type="float" min = "1" max = "999999" _gui-text="Font Size:">20</param>
-      <param name="charSpacing" type="float" min = "0" max = "100" _gui-text="Char Spacing:">1</param>
-      <param name="wordSpacing" type="float" min = "0" max = "100" _gui-text="Word Spacing:">1</param>
-      <param name="lineSpacing" type="float" min = "0" max = "100" _gui-text="Line Spacing:">1.5</param>
-      <param name="strokeWidthMult" type="float" min = "0" max = "100" _gui-text="Stroke Width:">1</param>
+      <param name="fontSize" type="float" min = "1" max = "999999" _gui-text="Font Size:" precision="2">20</param>
+      <param name="charSpacing" type="float" min = "0" max = "100" _gui-text="Char Spacing:" precision="2">1</param>
+      <param name="wordSpacing" type="float" min = "0" max = "100" _gui-text="Word Spacing:" precision="2">1</param>
+      <param name="lineSpacing" type="float" min = "0" max = "100" _gui-text="Line Spacing:" precision="2">1.5</param>
+      <param name="strokeWidthMult" type="float" min = "0" max = "100" _gui-text="Stroke Width:" precision="2">1</param>
 
       <param name="flowInBox" type="boolean" _gui-text="Flow Text in Selected Boxes:">true</param>
       <param name="margin" type="float" min = "-999999" max = "999999" _gui-text="Margin:">5</param>
